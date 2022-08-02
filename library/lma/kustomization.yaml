@@ -2,4 +2,4 @@ resources:
   - ../base
     
 transformers:
-  - ../../library/lma/site-values.yaml
+  - site-values.yaml

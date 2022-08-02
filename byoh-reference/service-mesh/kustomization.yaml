@@ -2,4 +2,4 @@ resources:
   - ../base
     
 transformers:
-  - site-values.yaml
+  - ../../library/service-mesh/site-values.yaml

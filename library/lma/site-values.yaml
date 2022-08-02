@@ -128,7 +128,7 @@ charts:
     global.base_cluster_url: $(clusterName)
     global.nodeSelector: $(nodeSelector)
     fluentbit.clusterName: $(clusterName)
-    fluentbit.outputs.es.host: eck-elasticsearch-es-http.lma.svc.$(clusterName)
+    fluentbit.outputs.es[1].host: eck-elasticsearch-es-http.lma.svc.$(clusterName)
     fluentbit.outputs.kafka:
       enabled: false
     fluentbit.nodeSelector: $(nodeSelector)
